@@ -1,0 +1,53 @@
+* {
+    font-family: 'Roboto';
+}
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100vh;
+}
+
+.sidebar { 
+    flex: 1 0 0;
+    order: 1;
+    background-image: linear-gradient(120deg,rgb(91, 200, 250) 0%, rgb(102, 166, 255) 100%);
+    padding: 24px;
+    color: white;
+}
+
+.content { 
+    flex: 3 0px;
+    order: 2;
+    padding: 24px;
+    background-image: linear-gradient(to top, rgb(223, 233, 243) 0%, white 100%);
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.price {
+    font-size: 48px;
+    display: inline-block;
+}
+
+.fraction {
+    font-size: 24px;
+    display: inline-block;
+}
+
+.mb-2r{
+
+    margin-bottom: 2rem;
+}
+
+.mt-5{
+
+    margin-top: 1.5rem;
+}
+
+h4{
+
+    margin-bottom: .5rem;
+}
